@@ -14,10 +14,10 @@ $ducks[] = new RubberDuck();
 
 
 foreach ($ducks as $duck) {
-    $duck->Display();
-    $duck->Swim();
-    $duck->Quack();
-    $duck->Fly();
+    $duck->display();
+    $duck->swim();
+    $duck->quack();
+    $duck->fly();
 }
 
 // Variable

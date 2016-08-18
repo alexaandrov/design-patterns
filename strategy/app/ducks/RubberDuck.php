@@ -14,7 +14,7 @@ class RubberDuck extends DuckBase
         $this->flyBehavior = new NoFly();
     }
 
-    public function Display()
+    public function display()
     {
         echo "\n\n$this->name\n";
     }

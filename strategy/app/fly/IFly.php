@@ -3,5 +3,5 @@ namespace app\fly;
 
 interface IFly
 {
-    public function Fly();
+    public function fly();
 }

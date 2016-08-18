@@ -14,7 +14,7 @@ class WoodenDuck extends DuckBase
         $this->quackBehavior = new NoQuack();
     }
 
-    public function Display()
+    public function display()
     {
         echo "\n\n$this->name\n";
     }

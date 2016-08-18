@@ -8,7 +8,7 @@ class SimpleDuck extends DuckBase
 {
     protected $name = 'Simple duck';
 
-    public function Display()
+    public function display()
     {
         echo "\n\n$this->name\n";
     }

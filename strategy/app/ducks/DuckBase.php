@@ -21,19 +21,19 @@ abstract class DuckBase
         $this->flyBehavior = new SimpleFly();
     }
 
-    public function Quack()
+    public function quack()
     {
-        $this->quackBehavior->Quack();
+        $this->quackBehavior->quack();
     }
 
-    public function Fly() {
-        $this->flyBehavior->Fly();
+    public function fly() {
+        $this->flyBehavior->fly();
     }
 
-    public function Swim()
+    public function swim()
     {
         echo "[Swim]";
     }
 
-    public abstract function Display();
+    public abstract function display();
 }

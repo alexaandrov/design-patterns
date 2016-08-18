@@ -3,7 +3,7 @@ namespace app\quack;
 
 class SimpleQuack implements IQuack
 {
-    public function Quack()
+    public function quack()
     {
         echo "[Quack]";
     }

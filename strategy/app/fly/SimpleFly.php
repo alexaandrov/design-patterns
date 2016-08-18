@@ -3,7 +3,7 @@ namespace app\fly;
 
 class SimpleFly implements IFly
 {
-    public function Fly()
+    public function fly()
     {
         echo "[Fly]";
     }
