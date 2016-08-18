@@ -26,7 +26,8 @@ abstract class DuckBase
         $this->quackBehavior->quack();
     }
 
-    public function fly() {
+    public function fly()
+    {
         $this->flyBehavior->fly();
     }
 
