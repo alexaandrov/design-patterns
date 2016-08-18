@@ -1,7 +1,7 @@
 <?php
 namespace app\quack;
 
-interface IQuack
+interface QuackInterface
 {
     public function quack();
 }

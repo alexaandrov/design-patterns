@@ -1,7 +1,7 @@
 <?php
 namespace app\fly;
 
-class SimpleFly implements IFly
+class SimpleFly implements FlyInterface
 {
     public function fly()
     {

@@ -1,7 +1,7 @@
 <?php
 namespace app\fly;
 
-class NoFly implements IFly
+class NoFly implements FlyInterface
 {
     public function fly()
     {

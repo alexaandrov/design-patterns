@@ -12,20 +12,9 @@ $ducks[] = new SimpleDuck();
 $ducks[] = new WoodenDuck();
 $ducks[] = new RubberDuck();
 
-
 foreach ($ducks as $duck) {
     $duck->display();
     $duck->swim();
     $duck->quack();
     $duck->fly();
 }
-
-// Variable
-//
-// - Display
-// - Swim
-//
-// Constant
-//
-// - Quack
-// - Fly

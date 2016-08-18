@@ -1,7 +1,7 @@
 <?php
 namespace app\fly;
 
-interface IFly
+interface FlyInterface
 {
     public function fly();
 }

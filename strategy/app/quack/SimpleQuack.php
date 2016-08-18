@@ -1,7 +1,7 @@
 <?php
 namespace app\quack;
 
-class SimpleQuack implements IQuack
+class SimpleQuack implements QuackInterface
 {
     public function quack()
     {
